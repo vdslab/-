@@ -10,3 +10,9 @@ latexmk thesis -pdfdvi
 - chapter/\*.tex：本文
 - reference.bib：参考文献の bibtex
 - figs/：図用だが入れても特別なことは何もない
+
+# textlint
+
+```shell-session
+npm run lint
+```

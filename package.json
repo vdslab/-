@@ -1,0 +1,12 @@
+{
+  "name": "thesis",
+  "private": true,
+  "scripts": {
+    "lint": "textlint chapter/*.tex"
+  },
+  "devDependencies": {
+    "textlint": "^13.4.1",
+    "textlint-plugin-latex2e": "^1.2.1",
+    "textlint-rule-preset-japanese": "^9.0.0"
+  }
+}
